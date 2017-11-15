@@ -14,8 +14,7 @@
         android:textAlignment="inherit"
         android:textColorHint="@color/colorPrimary"
         android:textColorHighlight="@color/colorPrimary"
-        android:textColorLink="@color/colorPrimary"
-        android:textStyle="bold"
+        android:textColorLink="@color/colorPrimary" android:textStyle="bold"
         android:textDirection="firstStrongLtr"
         android:textCursorDrawable="@drawable/ic_done"
         android:freezesText="false"
@@ -72,7 +71,7 @@
 ```
 
 ### Общие правила разметки 
->View отделяются от нижележащих View одной строкой. Вложенные View отделяются друг от друга одной строкой и символом табуляции.
+>View отделяются от нижележащих View одной строкой. Вложенные View отделяются друг от друга одной строкой и символом табуляции. Закрывающие тэги ***/>*** и ***>*** находятся после последнего атрибута View.
 
 >##### Bad:
 
