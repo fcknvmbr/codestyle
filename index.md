@@ -3,6 +3,6 @@
 
 >Any fool can write code, but not any code can write a fool. ***Alexander Borodin, 2k17.***
 
-### [Kotlin codestyle](docs/KOTLIN.md)
-
-### [Xml codestyle](docs/LAYOUT.md)
+### [Kotlin style](docs/KOTLIN.md)
+### [Android style](docs/ANDROID.md)
+### [Xml style](docs/LAYOUT.md)
