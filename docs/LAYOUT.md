@@ -4,6 +4,7 @@
 >View должно содержать в тэгах id, layout_height, layout_width, padding*, layout_margin*, привязки ConstraintLayout'a, всё остальное - лежит в стилях. Одна строка - один стиль.
 
 >##### Bad:
+
 ```xml
 <TextView android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
@@ -51,6 +52,7 @@
 >android:id атрибут должен располагаться сразу же после класса View.
 
 >##### Bad:
+
 ```xml
 <TextView android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -60,6 +62,7 @@
 ```
 
 >##### Good:
+
 ```xml
 <TextView android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
@@ -72,6 +75,7 @@
 >View отделяются от нижележащих View одной строкой. Вложенные View отделяются друг от друга одной строкой и символом табуляции.
 
 >##### Bad:
+
 ```xml
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -99,6 +103,7 @@
 ```
 
 >##### Good:
+
 ```xml
 <LinearLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
